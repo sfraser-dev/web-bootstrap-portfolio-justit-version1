@@ -3,6 +3,7 @@
     --palette-paragraph-text: #8f8f8f;
     --palette-main-background: #ff4c68;
     --palette-white: #fff;
+    --palette-black: #000;
 }
 
 @keyframes gradient-animation {
@@ -68,6 +69,7 @@ p {
 
 .white-section {
     background-color: var(--palette-white);
+    color: var(--palette-black);
 
     /* Gradient backgrounds using only CSS */
     /* background: linear-gradient(300deg, #c7e6f1, #fff, #a7a3a2);
@@ -90,9 +92,9 @@ p {
 }
 
 .navbar-brand {
-    font-family: Ubuntu;
     font-size: 2.25rem;
     font-weight: bold;
+    /* color: var(--palette-white); */
 }
 
 .nav-item {
@@ -102,6 +104,7 @@ p {
 .nav-link {
     font-size: 1.2rem;
     font-family: "Monserrat-Light";
+    /* color: var(--palette-white); */
 }
 
 #title .container-fluid {
