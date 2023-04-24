@@ -27,10 +27,6 @@ p {
   line-height: 1.5;
 }
 
-.container-fluid {
-  padding: 7% 15%;
-}
-
 .colored-section {
   background-color: #ff4c68;
   color: #fff;
@@ -39,6 +35,10 @@ p {
 .white-section {
   background-color: #fff;
   color: #000;
+}
+
+.container-fluid {
+  padding: 7% 15%;
 }
 
 .hoverable-icon {
@@ -142,7 +142,7 @@ p {
   line-height: 1.5;
 }
 
-.breed-header {
+.price-breed-header {
   font-size: 1.5rem;
 }
 
