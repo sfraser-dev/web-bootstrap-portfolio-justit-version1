@@ -1,3 +1,4 @@
+// Variables
 $palette-icon: #ef8172;
 $palette-paragraph-text: #8f8f8f;
 $palette-main-background: #ff4c68;
@@ -23,6 +24,7 @@ p {
     color: $palette-paragraph-text;
 }
 
+// Multi - headings
 .big-heading {
     font-family: 'Montserrat-Black', sans-serif;
     font-size: 3.5rem;
@@ -34,10 +36,7 @@ p {
     line-height: 1.5;
 }
 
-.container-fluid {
-    padding: 7% 15%;
-}
-
+// Multi - sections
 .colored-section {
     background-color: $palette-main-background;
     color: $palette-white;
@@ -48,6 +47,12 @@ p {
     color: $palette-black;
 }
 
+// Multi - Bootstrap fluid container
+.container-fluid {
+    padding: 7% 15%;
+}
+
+// Multi - features and footer
 .hoverable-icon {
     color: $palette-icon;
 
@@ -56,6 +61,7 @@ p {
     }
 }
 
+// Bootstrap navbar
 .navbar {
     padding: 0 0 4.5rem 0;
 }
@@ -74,6 +80,7 @@ p {
     font-family: "Monserrat-Light";
 }
 
+// Title
 #title {
     .container-fluid {
         padding: 3% 15% 7%;
@@ -103,6 +110,7 @@ p {
     height: 490px;
 }
 
+// Features
 #features {
     position: relative;
 }
@@ -119,6 +127,7 @@ p {
     font-size: 1.5rem;
 }
 
+// Testimonials (carousel)
 .testimonials-images {
     width: 10%;
     border-radius: 100%;
@@ -130,6 +139,7 @@ p {
     line-height: 1.5;
 }
 
+// Press
 #press {
     padding-bottom: 3%;
 }
@@ -139,6 +149,7 @@ p {
     margin: 20px 20px 50px 20px;
 }
 
+// Pricing
 #pricing {
     padding: 100px;
 }
@@ -152,14 +163,16 @@ p {
     line-height: 1.5;
 }
 
-.breed-header {
+.price-breed-header {
     font-size: 1.5rem;
 }
 
+// Footer
 .social-media-icons {
     margin: 20px 10px;
 }
 
+// MQ
 @media only screen and (max-width: $screen-size-laptop) {
     .row {
         text-align: center;
