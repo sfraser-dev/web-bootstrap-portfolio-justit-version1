@@ -150,6 +150,10 @@ p {
   margin: 20px 10px;
 }
 
+.social-box a {
+  text-decoration: none;
+}
+
 @media only screen and (max-width: 992px) {
   .row {
     text-align: center;
