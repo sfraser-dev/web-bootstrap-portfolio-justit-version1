@@ -60,6 +60,13 @@ p {
         color: $palette-main-background;
     }
 }
+.icon-box {
+    padding: 2%;
+    text-align: center;
+    a {
+        text-decoration: none;
+    }
+}
 
 // Bootstrap navbar
 .navbar {
@@ -117,6 +124,9 @@ p {
 
 .feature-box {
     padding: 5%;
+    a{
+        text-decoration: none;
+    }
 }
 
 .font-awesome-icon {
@@ -168,15 +178,8 @@ p {
 }
 
 // Footer
-.social-media-icons {
-    margin: 20px 10px;
- 
-}
-
-.social-box {
-    a {
-        text-decoration: none;
-    }
+.social-icon-text {
+    padding-top: 3%;
 }
 
 // MQ

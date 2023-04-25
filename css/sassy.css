@@ -48,6 +48,14 @@ p {
   color: #ff4c68;
 }
 
+.icon-box {
+  padding: 2%;
+  text-align: center;
+}
+.icon-box a {
+  text-decoration: none;
+}
+
 .navbar {
   padding: 0 0 4.5rem 0;
 }
@@ -100,6 +108,9 @@ p {
 .feature-box {
   padding: 5%;
 }
+.feature-box a {
+  text-decoration: none;
+}
 
 .font-awesome-icon {
   margin: 0 0 1.5rem 0;
@@ -146,12 +157,8 @@ p {
   font-size: 1.5rem;
 }
 
-.social-media-icons {
-  margin: 20px 10px;
-}
-
-.social-box a {
-  text-decoration: none;
+.social-icon-text {
+  padding-top: 3%;
 }
 
 @media only screen and (max-width: 992px) {
